@@ -1,4 +1,4 @@
-# QSMac (QuickStartMac)
+# QSMac (QuickStartMac) :robot:
 *Start fresh after a clean installation of mac os*
 
 ## Overview
@@ -40,4 +40,8 @@ brew bundle
 - Brewfile already contains all packages that can be installed with QSMac.
 - QSMac can safely uninstall all GNU/Linux utilities.
 - In case of having already installed all packages through Brewfile, you can run ``` ./QSMac config ``` to set everything up.
+
+## Copyright
+
+Copyright (c) 2020 Andrés Biso. See [LICENSE](https://github.com/andresbiso/QSMac/blob/master/LICENSE) for details.
 
