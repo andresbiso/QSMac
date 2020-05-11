@@ -1,5 +1,5 @@
 # QSMac (QuickStartMac)
-*Start fresh after a clean installation of mac os*
+*Start fresh after a clean installation of macOS*
 
 ## Overview
 
