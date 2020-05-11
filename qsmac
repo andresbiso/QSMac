@@ -176,7 +176,11 @@ qsmac_install() {
         fi
     done
 
-	qsmac_add_config;
+    read -p "Do you want to enter qsmac config now (Y/N)? " -n 1 -r
+    if [[ $REPLY =~ [Yy]$ ]]; then
+        echo # Blank line
+        qsmac_add_config;
+    fi
 }
 
 qsmac_uninstall() {
@@ -240,7 +244,7 @@ qsmac_help() {
   echo "  install    install GNU/Linux utilities"
   echo "  uninstall  uninstall GNU/Linux utilities"
   echo "  info       show info on GNU/Linux utilities"
-  echo "  config     add qsmac to shell config file"
+  echo "  config     enter qsmac config"
   echo ""
   echo "optional arguments:"
   echo "  -h, --help  show this help message and exit"
