@@ -1,4 +1,4 @@
-# QSMac (QuickStartMac) :robot:
+# QSMac (QuickStartMac)
 *Start fresh after a clean installation of mac os*
 
 ## Overview
