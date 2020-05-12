@@ -1,4 +1,4 @@
-# QSMac (QuickStartMac)
+# QSMac (QuickSetupMac)
 
 **QSMac is an enhanced fork of [linuxify](https://github.com/fabiomaia/linuxify)**
 
